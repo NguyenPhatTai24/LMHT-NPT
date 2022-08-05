@@ -1,0 +1,54 @@
+{
+    "TinTuc":[{
+        "id":"tintucbonus",
+        "name":"tin tức",
+        "link":"/"
+    },
+    {
+        "id":"sukienbonus",
+        "name":"sự kiện",
+        "link":"/"
+    },
+    {
+        "id":"tingamebonus",
+        "name":"tin game",
+        "link":"/"
+    },
+    {
+        "id":"esportsbonus",
+        "name":"esports",
+        "link":"/"
+    },
+    {
+        "id":"congdongbonus",
+        "name":"cộng đồng",
+        "link":"/"
+    },
+    {
+        "id":"camnangbonus",
+        "name":"cẩm nang",
+        "link":"/"
+    },
+    {
+        "id":"vutrubonus",
+        "name":"vũ trụ",
+        "link":"/"
+    }],
+    "GioiThieu":[
+        {
+            "id":"gioithieubonus",
+            "name":"giới thiệu",
+            "link":"/"
+        },
+        {
+            "id":"tuongbonus",
+            "name":"tướng",
+            "link":"/"
+        },
+        {
+            "id":"trangbibonus",
+            "name":"trang bị",
+            "link":"/"
+        }
+    ]
+}

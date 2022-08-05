@@ -1,0 +1,98 @@
+.Content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    .BoxItems{
+        width: 12.2rem;
+        height: auto;
+        margin: auto;
+        background: white;
+        display: flex;
+        flex-wrap: wrap;
+        .Items{
+            width: 3.4rem;
+            height: 400px;
+            margin-right: 1rem;
+            float: left;
+            cursor: pointer;
+            position: relative;
+            overflow: unset;
+            background: white;
+            margin: 20px;
+            .ReviewImg{
+                img{
+
+                    width: 100%;
+                    height: 220px;
+                }
+            }
+            svg{
+                position: absolute;
+                top: -0.08rem;
+                left: 0.1rem;
+                width: 3.2rem;
+                height: 2.4rem;
+                path{
+                    fill: none;
+                    stroke: #c2c1c1;
+                    stroke-width: 1px;
+                    stroke-linecap: round;
+                    stroke-dasharray: 3240;
+                    -webkit-animation: svgAnimation3240 2.5s ease 1 backwards;
+                    animation: svgAnimation3240 2.5s ease 1 backwards;
+                }
+            }
+            .type{
+                color: #0ac6e4;
+                font-weight: 600;
+                padding: 0 0.08rem;
+                font-size: .14rem;
+                text-align: left;
+            }
+            .contentitems{
+                width: 100%;
+                height: auto;
+                font-size: 20px;
+                color: black;
+                font-weight: bold;
+                font-family: var(--font-primary);
+            }
+            .contentbonus{
+                font-size: 15px;
+                color: gray;
+                font-style: italic;
+            }
+            .time{
+                margin-top: 50px;
+                font-size: 15px;
+                color: gray;
+            }
+        }
+        .btn{
+            width: 3.7rem;
+            height: 0.4rem;
+            margin: 0 auto 0.8rem;
+            svg{
+                width: 1.8rem;
+                height: 0.5rem;
+                position: absolute;
+                top: -0.05rem;
+                left: -0.04rem;
+            }
+            .text{
+                width: 1.72rem;
+                height: 0.4rem;
+                line-height: .4rem;
+                font-size: .16rem;
+                color: #000;
+                display: inline-block;
+                background: #0bc6e4;
+                position: relative;
+                text-align: center;
+            }
+        }
+    }
+}

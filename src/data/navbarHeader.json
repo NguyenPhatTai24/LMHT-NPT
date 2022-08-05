@@ -1,0 +1,38 @@
+[
+    {
+        "id":"tintuc",
+        "text":"tin tức",
+        "hover":true,
+        "bonus":true
+    },
+    {
+        "id":"gioithieu",
+        "text":"giới thiệu",
+        "hover":true,
+        "bonus":true
+    },
+    {
+        "id":"esports",
+        "text":"esports", 
+        "hover":false,
+        "bonus":false
+    },
+    {
+        "id":"hotro",
+        "text":"Hỗ trợ",
+        "hover":false,
+        "bonus":false
+    },
+    {
+        "id":"taigame",
+        "text":"tải game",
+        "hover":true,
+        "bonus":false
+    },
+    {
+        "id":"napthe",
+        "text":"nạp thẻ",
+        "hover":false,
+        "bonus":false
+    }
+]

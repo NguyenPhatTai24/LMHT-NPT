@@ -1,0 +1,76 @@
+.SlideShow{
+    background-image: url("https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/blurred1.jpg");
+    width: 100%;
+    height: 5.2rem;
+    position: relative;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    display: flex;
+    svg,.BoxSlideShow{
+        position: absolute;
+        top: 0.35rem;
+        width: 12rem;
+        height: 4.2rem;
+        z-index: 10;
+        pointer-events: none;
+        left: 50%;
+        transform: translateX(-50%);
+        path{
+            fill: none;
+            stroke: #c2c1c1;
+            stroke-width: 1px;
+            stroke-linecap: round;
+            stroke-dasharray: 3240;
+            -webkit-animation: svgAnimation3240 2.5s ease 1 backwards;
+            animation: svgAnimation3240 2.5s ease 1 backwards;
+        }
+    }
+    .BoxSlideShow{
+        position: relative;
+        top: 0.45rem;
+        transform: translateX(-50%);
+        z-index: 9;
+        overflow: hidden;
+        width: 1220px;
+        a{
+        img{
+            position: absolute;
+            z-index: 7;
+        }
+                    
+    }
+        .show{
+            animation: actack 0.5s linear;
+            z-index: 8;
+            @keyframes actack {
+                0%{
+                    transform: translateX(100%);
+                }
+                100%{
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
+    .BoxCircle{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        justify-content: center;
+        padding: 23px;
+        .Circle{
+            width: 12px;
+            height: 12px;
+            background: #559392;
+            border-radius: 50%;
+            margin: 0 4px;
+            cursor: pointer;
+        }
+        .active{
+            background: #c2902d;
+        }
+    }
+}

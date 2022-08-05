@@ -1,0 +1,97 @@
+// .BonusMenu{
+//     width: 100%;
+//     position: fixed;
+//     background-color: rgba(6, 28, 37, .9);
+//     height: 250px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: white;
+//     line-height: 1.5;
+//     ul{
+//     position: absolute;
+//     height: 100%;
+//     font-size: 15px;
+//     font-family: var(--font-primary);
+//     text-transform: uppercase;
+//     display: flex;
+//     width: 12.2rem;
+//     list-style: none;
+//     li{
+//         width: 1.75rem;
+//         height: 30px;
+//         text-align: center;
+//         cursor: pointer;
+//         &:hover{
+//             color: #0BC6E3;
+//         }
+//     }
+//     .ListBonusOne{
+//         position: relative;
+//         left: 1.66rem;
+//     }
+//     .ListBonusTwo{
+//         position: relative;
+//         margin-left: 2.0rem;
+//     }
+//     }
+// }
+
+.BonusMenu {
+  top: 0.7rem;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  background-color: rgba(6, 28, 37, 0.9);
+  position: fixed;
+  border: none;
+  .ContainerBonus {
+    width: 12.2rem;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    .left {
+      width: 1.62rem;
+      height: 0.6rem;
+    }
+    .BoxListBonus {
+      position: relative;
+      display: flex;
+      width: 86%;
+      height: 100%;
+      border: none;
+      .ListBonusOne,
+      .ListBonusTwo {
+        width: 16.666666666666668%;
+        display: flex;
+        font-size: 15px;
+        height: auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+        text-transform: uppercase;
+        font-family: var(--font-primary);
+        cursor: pointer;
+        color: white;
+        ul {
+          list-style: none;
+          width: 100%;
+          a {
+            text-decoration: none;
+            color: white;
+            li {
+              padding: 10px 0;
+              text-align: center;
+              cursor: pointer;
+              &:hover {
+                color: #0bc6e3;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

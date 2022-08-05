@@ -1,0 +1,2 @@
+export const LogoHeader = 'https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/logo.png'
+export const LogoFooter = 'https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/logos-vn.png'

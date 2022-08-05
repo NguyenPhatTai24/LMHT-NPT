@@ -1,0 +1,87 @@
+.Footer{
+    padding: 10px 0 50px;
+    margin-top: -10px;
+    color: #fff;
+    background: #101215;
+    .content{
+        width: 1000px;
+        font: 12px var(--font-primary),arial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 40px auto 0;
+        .LogoFooter{
+            width: 100%;
+            height: 65px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+        }
+        .ContentFooter{
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            padding: 0 5px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .Link{
+                display: flex;
+                width: auto;
+                height: 50px;
+                margin-top: 30px;
+                .itemsLink{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    margin: 0 10px;
+                    text-decoration: none;
+                    color: white;
+                    .Icon{
+                        width: 25px;
+                        height: 25px;
+                        background: white;
+                        padding: 5px;
+                        border-radius: 50%;
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+        .InfoPlay{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            .btnPlay{
+                background:url('https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/playForFree.png');
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 180px;
+                height: 50px;
+                line-height: 52px;
+                font-size: 16px;
+                font-weight: 600;
+                font-family: var(--font-primary);
+                text-transform: uppercase;
+                text-decoration: none;
+                color: white;
+            }
+            .age{
+                margin-left: 30px;
+                width: 116px;
+                height: 51px;
+                background:url('https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/footer/vn-12.png');
+                background-size: contain;
+                vertical-align: middle;
+                display: inline-block;
+            }
+        }
+    }
+}
